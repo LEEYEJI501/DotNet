@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LinqQuerySyntax</StartupObject>
+    <StartupObject>ObjectNote.ObjectNote</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,7 @@
     <Compile Include="30_LINQ\LINQ_Take.cs" />
     <Compile Include="30_LINQ\LINQ_Where.cs" />
     <Compile Include="30_LINQ\MinAndMax.cs" />
+    <Compile Include="32_Object\ObjectNote.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
