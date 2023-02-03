@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ObjectNote.ObjectNote</StartupObject>
+    <StartupObject>TypeDefinitionWithUsing.TypeDefinitionWithUsing</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,7 +58,12 @@
     <Compile Include="30_LINQ\LINQ_Take.cs" />
     <Compile Include="30_LINQ\LINQ_Where.cs" />
     <Compile Include="30_LINQ\MinAndMax.cs" />
+    <Compile Include="32_Object\ClassArray.cs" />
     <Compile Include="32_Object\ObjectNote.cs" />
+    <Compile Include="32_Object\ToStringMethod.cs" />
+    <Compile Include="33_Namespace\NamespaceDescription.cs" />
+    <Compile Include="33_Namespace\NamespaceNote.cs" />
+    <Compile Include="33_Namespace\TypeDefinitionWithUsing.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
