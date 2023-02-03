@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LINQ_Chaining</StartupObject>
+    <StartupObject>LinqQuerySyntax</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="23_Enum\01_ConsoleColorDemo.cs" />
     <Compile Include="23_Enum\EnumerationTextBook.cs" />
+    <Compile Include="30_LINQ\FromWhereSelect.cs" />
+    <Compile Include="30_LINQ\LinqQuerySyntax.cs" />
     <Compile Include="30_LINQ\LINQ_All.cs" />
     <Compile Include="30_LINQ\LINQ_Any.cs" />
     <Compile Include="30_LINQ\LINQ_Chaining.cs" />
