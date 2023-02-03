@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LINQ_Take</StartupObject>
+    <StartupObject>LINQ_Chaining</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,9 @@
     <Compile Include="23_Enum\EnumerationTextBook.cs" />
     <Compile Include="30_LINQ\LINQ_All.cs" />
     <Compile Include="30_LINQ\LINQ_Any.cs" />
+    <Compile Include="30_LINQ\LINQ_Chaining.cs" />
+    <Compile Include="30_LINQ\LINQ_Distinct.cs" />
+    <Compile Include="30_LINQ\LINQ_OrderByDescending.cs" />
     <Compile Include="30_LINQ\LINQ_Take.cs" />
     <Compile Include="30_LINQ\LINQ_Where.cs" />
     <Compile Include="30_LINQ\MinAndMax.cs" />
