@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MinAndMax</StartupObject>
+    <StartupObject>LINQ_Take</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,10 @@
   <ItemGroup>
     <Compile Include="23_Enum\01_ConsoleColorDemo.cs" />
     <Compile Include="23_Enum\EnumerationTextBook.cs" />
+    <Compile Include="30_LINQ\LINQ_All.cs" />
+    <Compile Include="30_LINQ\LINQ_Any.cs" />
+    <Compile Include="30_LINQ\LINQ_Take.cs" />
+    <Compile Include="30_LINQ\LINQ_Where.cs" />
     <Compile Include="30_LINQ\MinAndMax.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,8 +59,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="26_Exception\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
