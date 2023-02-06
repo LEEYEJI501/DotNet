@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TypeDefinitionWithUsing.TypeDefinitionWithUsing</StartupObject>
+    <StartupObject>FieldNote.FieldNote</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,12 @@
     <Compile Include="33_Namespace\NamespaceDescription.cs" />
     <Compile Include="33_Namespace\NamespaceNote.cs" />
     <Compile Include="33_Namespace\TypeDefinitionWithUsing.cs" />
+    <Compile Include="34_Field\FieldArray.cs" />
+    <Compile Include="34_Field\FieldInitializer.cs" />
+    <Compile Include="34_Field\FieldNote.cs" />
+    <Compile Include="34_Field\LocalVariable.cs" />
+    <Compile Include="34_Field\PublicField.cs" />
+    <Compile Include="34_Field\VariableScope.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
