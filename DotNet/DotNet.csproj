@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConstructorAll.Person.ConstructorAll</StartupObject>
+    <StartupObject>ConstructorMethodDestructor.ConstructorMethodDestructor</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,6 +73,9 @@
     <Compile Include="35_Constructor\ConstructorAll.cs" />
     <Compile Include="35_Constructor\ConstructorDemo.cs" />
     <Compile Include="35_Constructor\ConstructorParameter.cs" />
+    <Compile Include="36_Destructor\ConstructorMethodDestructor.cs" />
+    <Compile Include="36_Destructor\ConstructorToDestructor.cs" />
+    <Compile Include="36_Destructor\DestructorDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
