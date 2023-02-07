@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Greetingpage</StartupObject>
+    <StartupObject>ExceptionHandling</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,17 @@
   <ItemGroup>
     <Compile Include="23_Enum\01_ConsoleColorDemo.cs" />
     <Compile Include="23_Enum\EnumerationTextBook.cs" />
+    <Compile Include="26_Exception\ExceptionDemo.cs" />
+    <Compile Include="26_Exception\ExceptionHandling.cs" />
+    <Compile Include="26_Exception\FormatExceptionDemo.cs" />
+    <Compile Include="26_Exception\TryCatch.cs" />
+    <Compile Include="26_Exception\TryCatchDemo.cs" />
+    <Compile Include="26_Exception\TryCatchFinallyDemo1.cs" />
+    <Compile Include="26_Exception\TryCatchFinallyDemo2.cs" />
+    <Compile Include="26_Exception\TryCatchFinallyDemo3.cs" />
+    <Compile Include="26_Exception\TryCatchFinallyDemo4.cs" />
+    <Compile Include="26_Exception\TryFinallyDemo.cs" />
+    <Compile Include="28_Generic\EnumerableDemo.cs" />
     <Compile Include="30_LINQ\FromWhereSelect.cs" />
     <Compile Include="30_LINQ\LinqQuerySyntax.cs" />
     <Compile Include="30_LINQ\LINQ_All.cs" />
@@ -90,7 +101,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="28_Generic\" />
+    <Folder Include="29_Null\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
