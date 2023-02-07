@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExceptionHandling</StartupObject>
+    <StartupObject>PropertyAll.Car.PropertyAll</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -94,6 +94,8 @@
     <Compile Include="37_Method\ParameterOut.cs" />
     <Compile Include="37_Method\ParameterRef.cs" />
     <Compile Include="37_Method\SingleExpression.cs" />
+    <Compile Include="38_Property\AutoPropertyInitializers.cs" />
+    <Compile Include="38_Property\PropertyAll.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
