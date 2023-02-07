@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConstructorMethodDestructor.ConstructorMethodDestructor</StartupObject>
+    <StartupObject>Greetingpage</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -76,12 +76,21 @@
     <Compile Include="36_Destructor\ConstructorMethodDestructor.cs" />
     <Compile Include="36_Destructor\ConstructorToDestructor.cs" />
     <Compile Include="36_Destructor\DestructorDemo.cs" />
+    <Compile Include="37_Method\GreetingPage.cs" />
+    <Compile Include="37_Method\ParamsDemo.cs" />
+    <Compile Include="37_Method\DateTimeTryParse.cs" />
+    <Compile Include="37_Method\MethodPrivate.cs" />
+    <Compile Include="37_Method\ParameterOut.cs" />
+    <Compile Include="37_Method\ParameterRef.cs" />
+    <Compile Include="37_Method\SingleExpression.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="28_Generic\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
