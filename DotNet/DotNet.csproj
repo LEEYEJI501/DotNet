@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PropertyAll.Car.PropertyAll</StartupObject>
+    <StartupObject>YieldReturn</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -94,8 +94,13 @@
     <Compile Include="37_Method\ParameterOut.cs" />
     <Compile Include="37_Method\ParameterRef.cs" />
     <Compile Include="37_Method\SingleExpression.cs" />
+    <Compile Include="38_Property\ArrowDemo.cs" />
     <Compile Include="38_Property\AutoPropertyInitializers.cs" />
+    <Compile Include="38_Property\Example.cs" />
     <Compile Include="38_Property\PropertyAll.cs" />
+    <Compile Include="39_Indexer\IndexerAndIterator.cs" />
+    <Compile Include="39_Indexer\IndexerNote.cs" />
+    <Compile Include="39_Indexer\YieldReturn.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
