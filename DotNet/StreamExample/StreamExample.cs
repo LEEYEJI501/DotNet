@@ -14,7 +14,8 @@ namespace DotNet.StreamExample
             StreamMethod streamMethod = new StreamMethod();
             //streamMethod.SaveByFileStream(fileName);
             //streamMethod.SaveByStreamWriter(fileName);
-            streamMethod.SaveByWriteAllText(fileName);
+            //streamMethod.SaveByWriteAllText(fileName);
+            streamMethod.SaveByWriteAllLines(fileName);
         }
     }
 }

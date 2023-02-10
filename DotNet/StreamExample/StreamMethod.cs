@@ -104,5 +104,32 @@ namespace DotNet.StreamExample
             }
             Console.WriteLine("파일이 저장되었습니다.");
         }
+
+        // 4. WriteAllLines
+        public void SaveByWriteAllLines(string fileName)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(path);
+            sb.Append("/");
+            sb.Append(fileName);
+
+            try
+            {
+                File.WriteAllLines(sb.ToString(), arrData);
+            }
+            catch (DirectoryNotFoundException e)
+            {
+                Console.WriteLine("폴더가 없습니다. 폴더를 생성합니다.");
+                Directory.CreateDirectory(path);
+                SaveByStreamWriter(fileName);
+                return;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return;
+            }
+            Console.WriteLine("파일이 저장되었습니다.");
+        }
     }
 }
