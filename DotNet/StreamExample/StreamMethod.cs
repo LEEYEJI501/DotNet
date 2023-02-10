@@ -30,6 +30,8 @@ namespace DotNet.StreamExample
                 byte[] bytes = Encoding.UTF8.GetBytes(strData);
                 fs.Write(bytes, 0, bytes.Length);
                 fs.Close();
+
+                Console.WriteLine("파일이 저장되었습니다.");
             }
             catch (DirectoryNotFoundException e)
             {
@@ -42,6 +44,39 @@ namespace DotNet.StreamExample
                 return;
             }
             Console.WriteLine("저장 완료");
+        }
+
+        // 2. StreamWriter
+        public void SaveByStreamWriter(string fileName)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(path);
+            sb.Append("/");
+            sb.Append(fileName);
+
+            try
+            {
+                FileStream fs = new FileStream(sb.ToString(), FileMode.Create, FileAccess.Write);
+
+                StreamWriter writer = new StreamWriter(fs);
+                writer.Write(strData);
+                writer.Close();
+                fs.Close();
+
+                Console.WriteLine("파일이 저장되었습니다.");
+            }
+            catch (DirectoryNotFoundException e)
+            {
+                Console.WriteLine("폴더가 없습니다. 폴더를 생성합니다.");
+                Directory.CreateDirectory(path);
+                SaveByStreamWriter(fileName);
+                return;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return;
+            }
         }
     }
 }
