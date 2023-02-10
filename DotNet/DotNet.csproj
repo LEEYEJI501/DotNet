@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNet.StreamExample.StreamExample</StartupObject>
+    <StartupObject>FuncDelegate</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -101,6 +101,15 @@
     <Compile Include="39_Indexer\IndexerAndIterator.cs" />
     <Compile Include="39_Indexer\IndexerNote.cs" />
     <Compile Include="39_Indexer\YieldReturn.cs" />
+    <Compile Include="40_Delegate\AnonymousDelegate.cs" />
+    <Compile Include="40_Delegate\AnonymousMethod.cs" />
+    <Compile Include="40_Delegate\DelegateDemo.cs" />
+    <Compile Include="40_Delegate\DelegateNote.cs" />
+    <Compile Include="40_Delegate\DelegateParameter.cs" />
+    <Compile Include="40_Delegate\DelegatePractice.cs" />
+    <Compile Include="40_Delegate\DelegateSample.cs" />
+    <Compile Include="40_Delegate\FuncDelegate.cs" />
+    <Compile Include="40_Delegate\FuncDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
