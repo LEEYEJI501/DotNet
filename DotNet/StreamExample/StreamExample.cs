@@ -12,8 +12,9 @@ namespace DotNet.StreamExample
             string fileName = "SaveFileStream.txt";
 
             StreamMethod streamMethod = new StreamMethod();
-            // streamMethod.SaveByFileStream(fileName);
-            streamMethod.SaveByStreamWriter(fileName);
+            //streamMethod.SaveByFileStream(fileName);
+            //streamMethod.SaveByStreamWriter(fileName);
+            streamMethod.SaveByWriteAllText(fileName);
         }
     }
 }
