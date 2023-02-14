@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ParticalClassDemo.ParticalClassDemo</StartupObject>
+    <StartupObject>EventAndDelegateDemo.EventAndDelegate</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -111,11 +111,13 @@
     <Compile Include="40_Delegate\FuncDelegate.cs" />
     <Compile Include="40_Delegate\FuncDemo.cs" />
     <Compile Include="40_Delegate\PassMethodAsParameter.cs" />
+    <Compile Include="41_Event\EventAndDelegate.Car.cs" />
+    <Compile Include="41_Event\EventAndDelegate.cs" />
     <Compile Include="41_Event\EventDemo.cs" />
-    <Compile Include="41_Event\FirstDeveloper.cs" />
-    <Compile Include="41_Event\PartialClass.cs" />
-    <Compile Include="41_Event\ParticalClassDemo.cs" />
-    <Compile Include="41_Event\SecondDeveloper.cs" />
+    <Compile Include="42_ClassEtc\FirstDeveloper.cs" />
+    <Compile Include="42_ClassEtc\PartialClass.cs" />
+    <Compile Include="42_ClassEtc\ParticalClassDemo.cs" />
+    <Compile Include="42_ClassEtc\SecondDeveloper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
@@ -126,7 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="29_Null\" />
-    <Folder Include="42_ClassEtc\" />
+    <Folder Include="43_inheritance\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
