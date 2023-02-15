@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FieldHiding.FieldHiding</StartupObject>
+    <StartupObject>InheritanceNote.InheritanceNote</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -124,6 +124,7 @@
     <Compile Include="43_Inheritance\ConstructorInheritance.cs" />
     <Compile Include="43_Inheritance\FieldHiding.cs" />
     <Compile Include="43_Inheritance\InheritanceDemo.cs" />
+    <Compile Include="43_Inheritance\InheritanceNote.cs" />
     <Compile Include="43_Inheritance\IsAn.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
