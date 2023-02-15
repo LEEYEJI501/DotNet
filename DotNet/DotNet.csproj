@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EventAndDelegateDemo.EventAndDelegate</StartupObject>
+    <StartupObject>BaseKeyword.BaseKeyword</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -118,6 +118,11 @@
     <Compile Include="42_ClassEtc\PartialClass.cs" />
     <Compile Include="42_ClassEtc\ParticalClassDemo.cs" />
     <Compile Include="42_ClassEtc\SecondDeveloper.cs" />
+    <Compile Include="43_Inheritance\BaseKeyword.cs" />
+    <Compile Include="43_Inheritance\ClassInheritance.cs" />
+    <Compile Include="43_Inheritance\ConstructorBase.cs" />
+    <Compile Include="43_Inheritance\InheritanceDemo.cs" />
+    <Compile Include="43_Inheritance\IsAn.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
@@ -128,7 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="29_Null\" />
-    <Folder Include="43_inheritance\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
