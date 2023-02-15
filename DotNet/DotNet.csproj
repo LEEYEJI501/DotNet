@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BaseKeyword.BaseKeyword</StartupObject>
+    <StartupObject>FieldHiding.FieldHiding</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -121,6 +121,8 @@
     <Compile Include="43_Inheritance\BaseKeyword.cs" />
     <Compile Include="43_Inheritance\ClassInheritance.cs" />
     <Compile Include="43_Inheritance\ConstructorBase.cs" />
+    <Compile Include="43_Inheritance\ConstructorInheritance.cs" />
+    <Compile Include="43_Inheritance\FieldHiding.cs" />
     <Compile Include="43_Inheritance\InheritanceDemo.cs" />
     <Compile Include="43_Inheritance\IsAn.cs" />
     <Compile Include="Program.cs" />
