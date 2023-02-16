@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>InterfaceInheritance.InterfaceInheritance</StartupObject>
+    <StartupObject>InterfaceFriends.InterfaceFriends</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -129,11 +129,16 @@
     <Compile Include="44_Override\ClassToString.cs" />
     <Compile Include="44_Override\MethodOverridePractice.cs" />
     <Compile Include="44_Override\OverrideDemo.cs" />
+    <Compile Include="45_Interface\IDisposableDemo.cs" />
+    <Compile Include="45_Interface\IEnumeratorDemo.cs" />
     <Compile Include="45_Interface\InterfaceDemo.cs" />
     <Compile Include="45_Interface\InterfaceExam.cs" />
+    <Compile Include="45_Interface\InterfaceExplicit.cs" />
+    <Compile Include="45_Interface\InterfaceFriends.cs" />
     <Compile Include="45_Interface\InterfaceInheritance.cs" />
     <Compile Include="45_Interface\InterfaceNote.cs" />
     <Compile Include="45_Interface\InterfacePractice.cs" />
+    <Compile Include="45_Interface\ListOfChildToListOfParent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
