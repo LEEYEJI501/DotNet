@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.AccessControl;
 
 namespace InheritanceNote
 {
@@ -16,18 +17,25 @@ namespace InheritanceNote
 
     public class Car : CarBase 
     {
+        public CarType Style { get; private set; }
+        public Car(CarType carType)
+        {
+            this.Style = carType;
+        }
         public override void Left() => Console.WriteLine("좌회전하다.");
         public void Go() => Console.WriteLine("달리다.");
     }
 
     public class Audi : Car
     {
-        public CarType Style { get; set; } = CarType.내연기관;
+        public Audi() : this(CarType.내연기관) { }
+        public Audi(CarType carType) : base(carType) { }
     }
 
     public class Tesla : Car
     {
-        public CarType Style { get; set; } = CarType.전기;
+        public Tesla() : this(CarType.전기) { }
+        public Tesla(CarType carType) : base(carType) { }
     }
 
     class InheritanceNote : Object
