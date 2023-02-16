@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>InheritanceNote.InheritanceNote</StartupObject>
+    <StartupObject>MethodOverridePractice.MethodOverridePractice</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -126,6 +126,8 @@
     <Compile Include="43_Inheritance\InheritanceDemo.cs" />
     <Compile Include="43_Inheritance\InheritanceNote.cs" />
     <Compile Include="43_Inheritance\IsAn.cs" />
+    <Compile Include="44_Override\ClassToString.cs" />
+    <Compile Include="44_Override\MethodOverridePractice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
