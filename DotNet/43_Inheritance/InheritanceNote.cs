@@ -13,6 +13,7 @@ namespace InheritanceNote
     {
         public abstract void Left();
         public void Back() => Console.WriteLine("후진하다.");
+        protected string LeftMessage { get; private set; } = "좌회전하다."; // 자식에게만 멤버 노출
     }
 
     public class Car : CarBase 
@@ -22,7 +23,7 @@ namespace InheritanceNote
         {
             this.Style = carType;
         }
-        public override void Left() => Console.WriteLine("좌회전하다.");
+        public override void Left() => Console.WriteLine(base.LeftMessage);
         public void Go() => Console.WriteLine("달리다.");
     }
 
@@ -37,6 +38,20 @@ namespace InheritanceNote
         public Tesla() : this(CarType.전기) { }
         public Tesla(CarType carType) : base(carType) { }
     }
+
+    // 봉인 클래스 sealed
+    public sealed class Future : Car
+    {
+        public Future() : this(CarType.전기) { }
+        public Future(CarType carType) : base(carType) { }
+        public new void Go()
+        {
+            base.Go();
+            Console.WriteLine("날다.");
+        }
+    }
+
+    //public class OtherFuture : Future { }
 
     class InheritanceNote : Object
     {
@@ -53,6 +68,10 @@ namespace InheritanceNote
             Console.WriteLine($"{tesla.Style}");
             tesla.Back();
             tesla.Left();
+
+            Future future = new Future();
+            future.Go();
+
         }
     }
 }
