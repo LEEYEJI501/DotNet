@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>InterfaceFriends.InterfaceFriends</StartupObject>
+    <StartupObject>InterfaceExample.InterfaceExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -133,6 +133,7 @@
     <Compile Include="45_Interface\IEnumeratorDemo.cs" />
     <Compile Include="45_Interface\InterfaceDemo.cs" />
     <Compile Include="45_Interface\InterfaceExam.cs" />
+    <Compile Include="45_Interface\InterfaceExample.cs" />
     <Compile Include="45_Interface\InterfaceExplicit.cs" />
     <Compile Include="45_Interface\InterfaceFriends.cs" />
     <Compile Include="45_Interface\InterfaceInheritance.cs" />
