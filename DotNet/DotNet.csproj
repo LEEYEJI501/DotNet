@@ -114,10 +114,10 @@
     <Compile Include="41_Event\EventAndDelegate.Car.cs" />
     <Compile Include="41_Event\EventAndDelegate.cs" />
     <Compile Include="41_Event\EventDemo.cs" />
-    <Compile Include="42_ClassEtc\FirstDeveloper.cs" />
+    <Compile Include="42_ClassEtc\PartialClass\FirstDeveloper.cs" />
     <Compile Include="42_ClassEtc\PartialClass.cs" />
-    <Compile Include="42_ClassEtc\ParticalClassDemo.cs" />
-    <Compile Include="42_ClassEtc\SecondDeveloper.cs" />
+    <Compile Include="42_ClassEtc\PartialClass\ParticalClassDemo.cs" />
+    <Compile Include="42_ClassEtc\PartialClass\SecondDeveloper.cs" />
     <Compile Include="43_Inheritance\BaseKeyword.cs" />
     <Compile Include="43_Inheritance\ClassInheritance.cs" />
     <Compile Include="43_Inheritance\ConstructorBase.cs" />
