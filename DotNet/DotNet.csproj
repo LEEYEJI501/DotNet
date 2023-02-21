@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CarWorld.CarWorld</StartupObject>
+    <StartupObject>AttributeDemo.AttributeDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -142,6 +142,7 @@
     <Compile Include="45_Interface\ListOfChildToListOfParent.cs" />
     <Compile Include="46_Attribute\Attribute\AttributePractice.cs" />
     <Compile Include="46_Attribute\Attribute\CallerInformation.cs" />
+    <Compile Include="46_Attribute\Attribute\AttributeDemo.cs" />
     <Compile Include="46_Attribute\Attribute\ConditionalDemo.cs" />
     <Compile Include="46_Attribute\Attribute\NickNameAttributeTest.cs" />
     <Compile Include="46_Attribute\Attribute\ObsoleteDemo.cs" />
