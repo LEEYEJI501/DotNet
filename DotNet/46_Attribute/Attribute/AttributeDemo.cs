@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace AttributeDemo
 {
@@ -17,6 +18,8 @@ namespace AttributeDemo
 
         [Conditional("DEBUG")]
         public void Test() => Console.WriteLine("테스트 운전");
+        [Conditional("RELEASE")]
+        public void Test2() => Console.WriteLine("테스트 운전");
 
     }
     class AttributeDemo
@@ -25,9 +28,16 @@ namespace AttributeDemo
         {
             Car car = new Car();
             Attribute.GetCustomAttributes(typeof(Car));
+            typeof(Car).GetCustomAttributes(false);
             //car.Manual();
             car.Test();
+            car.Test2();
             car.Auto();
+            // Reflection
+            var carType = (new Car());
+            Type myCar = (new Car()).GetType();
+            MethodInfo info = myCar.GetMethod("Auto");
+            info.Invoke(carType, null);
         }
     }
 }

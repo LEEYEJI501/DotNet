@@ -148,6 +148,8 @@
     <Compile Include="46_Attribute\Attribute\ObsoleteDemo.cs" />
     <Compile Include="46_Attribute\Reflection\ReflectionGetMembers.cs" />
     <Compile Include="46_Attribute\Reflection\ReflectionGetMethod.cs" />
+    <Compile Include="46_Attribute\Reflection\ReflectionGetProperty.cs" />
+    <Compile Include="46_Attribute\Reflection\TypeAndActivator.cs" />
     <Compile Include="47_OOP\CarWorld.cs" />
     <Compile Include="47_OOP\EncapsulationNote.cs" />
     <Compile Include="47_OOP\PolymorphismDemo.cs" />
