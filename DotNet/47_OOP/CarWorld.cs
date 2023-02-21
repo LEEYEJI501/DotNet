@@ -7,33 +7,34 @@ using System.Collections;
 namespace CarWorld
 {
     // 인터페이스 : 표준, 다중 상속
-    interface IStandard { void Run(); }
+    interface IStandard { void Run(); }         // 추상화
 
     ///<summary>
     /// 클래스 : 설계도
     ///</summary>
-    class Car : IStandard
+    class Car : IStandard       // 상속
     {
+        // 캡슐화
         #region 필드 : Private Member Variables
-        private string name;
-        private string[] names;
-        private readonly int _Length;
+        private string name;        // 필드 : 부품
+        private string[] names;         // 배열형 필드
+        private readonly int _Length;       // 읽기전용 필드
         #endregion
 
         #region 생성자 : Constructors
         public Car()
         {
-            this.name = "좋은 차";
+            this.name = "좋은 차";         // 필드를 기본값으로 초기화
         }
-        public Car(string name)
+        public Car(string name)         // 생성자 : 시동, 필드 초기화
         {
             this.name = name;
         }
         public Car(int length)
         {
             this.name = "좋은 차";
-            _Length = length;
-            names = new string[length];
+            _Length = length;       // 읽기전용 필드는 생성자에 의해서 초기화 가능
+            names = new string[length];         // 넘겨받은 값으로 요소 생성
         }
         #endregion
 
@@ -43,7 +44,7 @@ namespace CarWorld
         #endregion
 
         #region 속성 : Public Properties
-        public string Name
+        public string Name      // 속성 : private 필드 -> 외부 공개
         {
             get { return name; }
             set { name = value; }
@@ -52,14 +53,14 @@ namespace CarWorld
         #endregion
 
         #region 소멸자 : Destructor
-        ~Car() 
+        ~Car()      // 소멸자 : 폐차, 만들어진 객체 소멸될 때
         {
             Console.WriteLine("{0} 자동차가 폐차됨.");
         }
         #endregion
 
         #region 인덱서 : Indexer
-        public string this[int index]
+        public string this[int index]       // 인덱서 : 카탈로그화
         {
             get { return names[index]; }
             set { names[index] = value; }
@@ -67,7 +68,7 @@ namespace CarWorld
         #endregion
 
         #region 이터레이터 : Iterators
-        public IEnumerator GetEnumerator()
+        public IEnumerator GetEnumerator()      // 반복기
         {
             for (int i = 0; i < _Length; i++)
             {
@@ -77,15 +78,15 @@ namespace CarWorld
         #endregion
 
         #region 대리자 : Public Delegates
-        public delegate void EventHandler();
+        public delegate void EventHandler();        // 대리자 : 다중 메서드 호출
         #endregion
 
         #region 이벤트 : Public Events
-        public event EventHandler Click;
+        public event EventHandler Click;        // 이벤트
         #endregion
 
         #region 이벤트 처리기 : Event Handlers
-        public void OnClick()
+        public void OnClick()       // 이벤트 핸들러
         {
             if (Click != null)
             {
@@ -93,6 +94,12 @@ namespace CarWorld
             }
         }
         #endregion
+    }
+
+    class CarRepair
+    {
+        // 다형성
+        public CarRepair(IStandard car) => car.Run();
     }
 
     class CarWorld
@@ -128,6 +135,9 @@ namespace CarWorld
             btn.Click += new Car.EventHandler(btn.Run);
             btn.Click += new Car.EventHandler(btn.Run);
             btn.OnClick();
+
+            new CarRepair(campingCar);
+            new CarRepair(sportCar);
         }
     }
 }

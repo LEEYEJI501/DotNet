@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AttributeDemo.AttributeDemo</StartupObject>
+    <StartupObject>CarWorld.CarWorld</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
