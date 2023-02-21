@@ -163,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="29_Null\" />
+    <Folder Include="48_Generic\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
