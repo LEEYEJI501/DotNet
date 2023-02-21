@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CarWorld.CarWorld</StartupObject>
+    <StartupObject>StringArray.StringArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -153,6 +153,16 @@
     <Compile Include="47_OOP\CarWorld.cs" />
     <Compile Include="47_OOP\EncapsulationNote.cs" />
     <Compile Include="47_OOP\PolymorphismDemo.cs" />
+    <Compile Include="48_Generic\CollectionInitializers.cs" />
+    <Compile Include="48_Generic\CollectionMerge.cs" />
+    <Compile Include="48_Generic\DictionaryOfString.cs" />
+    <Compile Include="48_Generic\DictionaryOfTypeNote.cs" />
+    <Compile Include="48_Generic\LinqCollectionDemo.cs" />
+    <Compile Include="48_Generic\ListDictionaryDemo.cs" />
+    <Compile Include="48_Generic\ListNote.cs" />
+    <Compile Include="48_Generic\ListOfCategory.cs" />
+    <Compile Include="48_Generic\ListOfObject.cs" />
+    <Compile Include="48_Generic\StringArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
@@ -163,7 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="29_Null\" />
-    <Folder Include="48_Generic\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
