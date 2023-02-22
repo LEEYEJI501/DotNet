@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyExtensions.MyExtensions</StartupObject>
+    <StartupObject>LinqDemo.LinqDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -172,6 +172,7 @@
     <Compile Include="48_Generic\GenericNote.cs" />
     <Compile Include="48_Generic\GenericsDemo.cs" />
     <Compile Include="48_Generic\LinqCollectionDemo.cs" />
+    <Compile Include="48_Generic\LinqDemo.cs" />
     <Compile Include="48_Generic\ListDictionaryDemo.cs" />
     <Compile Include="48_Generic\ListNote.cs" />
     <Compile Include="48_Generic\ListOfCategory.cs" />
