@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StringArray.StringArray</StartupObject>
+    <StartupObject>GenericMethod.GenericMethod</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -157,12 +157,17 @@
     <Compile Include="48_Generic\CollectionMerge.cs" />
     <Compile Include="48_Generic\DictionaryOfString.cs" />
     <Compile Include="48_Generic\DictionaryOfTypeNote.cs" />
+    <Compile Include="48_Generic\GenericClassPractice.cs" />
+    <Compile Include="48_Generic\GenericMethod.cs" />
+    <Compile Include="48_Generic\GenericNote.cs" />
+    <Compile Include="48_Generic\GenericsDemo.cs" />
     <Compile Include="48_Generic\LinqCollectionDemo.cs" />
     <Compile Include="48_Generic\ListDictionaryDemo.cs" />
     <Compile Include="48_Generic\ListNote.cs" />
     <Compile Include="48_Generic\ListOfCategory.cs" />
     <Compile Include="48_Generic\ListOfObject.cs" />
     <Compile Include="48_Generic\StringArray.cs" />
+    <Compile Include="48_Generic\TypeConstraint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
