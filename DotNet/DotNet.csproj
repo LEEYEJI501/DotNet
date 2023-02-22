@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GenericMethod.GenericMethod</StartupObject>
+    <StartupObject>NullConditionalWithCollection</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,15 @@
     <Compile Include="26_Exception\TryCatchFinallyDemo4.cs" />
     <Compile Include="26_Exception\TryFinallyDemo.cs" />
     <Compile Include="28_Generic\EnumerableDemo.cs" />
+    <Compile Include="29_Null\NullableOf.cs" />
+    <Compile Include="29_Null\NullableTypeCheck.cs" />
+    <Compile Include="29_Null\NullableTypeDemo.cs" />
+    <Compile Include="29_Null\NullCoalescing.cs" />
+    <Compile Include="29_Null\NullCoalescingNote.cs" />
+    <Compile Include="29_Null\NullCoalescingOperator.cs" />
+    <Compile Include="29_Null\NullConditional.cs" />
+    <Compile Include="29_Null\NullConditionalWithCollection.cs" />
+    <Compile Include="29_Null\NullDemo.cs" />
     <Compile Include="30_LINQ\FromWhereSelect.cs" />
     <Compile Include="30_LINQ\LinqQuerySyntax.cs" />
     <Compile Include="30_LINQ\LINQ_All.cs" />
@@ -176,8 +185,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="29_Null\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
