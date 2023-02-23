@@ -183,6 +183,11 @@
     <Compile Include="49_ExtensionMethod\ExtensionMethodDemo.cs" />
     <Compile Include="49_ExtensionMethod\ExtensionMethodNote.cs" />
     <Compile Include="49_ExtensionMethod\MyExtensions.cs" />
+    <Compile Include="50_Dynamic\Dynamic.cs" />
+    <Compile Include="50_Dynamic\DynamicallyTypedObjects.cs" />
+    <Compile Include="50_Dynamic\DynamicBinding.cs" />
+    <Compile Include="50_Dynamic\DynamicDemo.cs" />
+    <Compile Include="50_Dynamic\DynamicExtensionMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
