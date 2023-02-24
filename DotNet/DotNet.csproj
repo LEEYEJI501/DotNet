@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TupleDeconstructionDescription</StartupObject>
+    <StartupObject>ThreadPractice</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -188,6 +188,7 @@
     <Compile Include="50_Dynamic\DynamicBinding.cs" />
     <Compile Include="50_Dynamic\DynamicDemo.cs" />
     <Compile Include="50_Dynamic\DynamicExtensionMethod.cs" />
+    <Compile Include="51_Tuple\LocalFunctionDescription.cs" />
     <Compile Include="51_Tuple\TupleDeconstructionDescription.cs" />
     <Compile Include="51_Tuple\TupleDefault.cs" />
     <Compile Include="51_Tuple\TupleLiteral.cs" />
@@ -195,6 +196,8 @@
     <Compile Include="51_Tuple\TupleNamed.cs" />
     <Compile Include="51_Tuple\TupleReturnDescription.cs" />
     <Compile Include="51_Tuple\TupleReturnName.cs" />
+    <Compile Include="55_Thread\ThreadDemo.cs" />
+    <Compile Include="55_Thread\ThreadPractice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
