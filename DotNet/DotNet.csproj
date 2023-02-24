@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ThreadPractice</StartupObject>
+    <StartupObject>ThreadNote.ThreadNote</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -196,7 +196,10 @@
     <Compile Include="51_Tuple\TupleNamed.cs" />
     <Compile Include="51_Tuple\TupleReturnDescription.cs" />
     <Compile Include="51_Tuple\TupleReturnName.cs" />
+    <Compile Include="55_Thread\ConcurrencyFor.cs" />
+    <Compile Include="55_Thread\ParalleFor.cs" />
     <Compile Include="55_Thread\ThreadDemo.cs" />
+    <Compile Include="55_Thread\ThreadNote.cs" />
     <Compile Include="55_Thread\ThreadPractice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
