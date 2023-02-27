@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsyncAwaitDescription</StartupObject>
+    <StartupObject>AsyncAwaitDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -201,6 +201,7 @@
     <Compile Include="55_Thread\ThreadDemo.cs" />
     <Compile Include="55_Thread\ThreadNote.cs" />
     <Compile Include="55_Thread\ThreadPractice.cs" />
+    <Compile Include="56_Async\AsyncAwaitDemo.cs" />
     <Compile Include="56_Async\AsyncAwaitDescription.cs" />
     <Compile Include="56_Async\AsyncAwaitSimple.cs" />
     <Compile Include="56_Async\AsyncMain.cs" />
