@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SignBaseSignRepository</StartupObject>
+    <StartupObject>StreamWriterWriteLineDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -209,6 +209,8 @@
     <Compile Include="56_Async\WeatherForecastApp.cs" />
     <Compile Include="57_InMemory\RepositoryPatternDemo.cs" />
     <Compile Include="57_InMemory\SignBaseSingRepository.cs" />
+    <Compile Include="58_IO\GetFileNameDemo.cs" />
+    <Compile Include="58_IO\StreamWriterWriteLineDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />

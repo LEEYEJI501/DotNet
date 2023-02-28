@@ -1,6 +1,6 @@
 ﻿namespace TodoApp.Models
 {
-    public interface ITodoRepositoryInMemory
+    public interface ITodoRepository
     {
         void Add(Todo model); // 입력
         List<Todo> GetAll(); // 출력

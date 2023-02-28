@@ -7,7 +7,7 @@ namespace TodoApp.ConsoleApp
     {
         static void Main(string[] args)
         {
-            ITodoRepositoryInMemory _repository = new TodoRepositoryInMemory();
+            ITodoRepository _repository = new TodoRepositoryInMemory();
             List<Todo> todos = new List<Todo>();
             todos = _repository.GetAll();
 
