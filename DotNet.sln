@@ -5,6 +5,14 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet", "DotNet\DotNet.csproj", "{B9DD8BA6-0EB6-4B15-9842-30E9534A6A08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{23EA7FDC-3F86-4419-A3EB-E1F690D604D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoApp", "TodoApp", "{6D887B82-94A8-4247-9C31-A622489E7794}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{694F6C80-6A14-4867-8173-BCDD314647DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{F8B402BC-1954-429C-9276-B609B4425562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,22 @@ Global
 		{B9DD8BA6-0EB6-4B15-9842-30E9534A6A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9DD8BA6-0EB6-4B15-9842-30E9534A6A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9DD8BA6-0EB6-4B15-9842-30E9534A6A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EA7FDC-3F86-4419-A3EB-E1F690D604D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EA7FDC-3F86-4419-A3EB-E1F690D604D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EA7FDC-3F86-4419-A3EB-E1F690D604D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EA7FDC-3F86-4419-A3EB-E1F690D604D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B402BC-1954-429C-9276-B609B4425562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B402BC-1954-429C-9276-B609B4425562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B402BC-1954-429C-9276-B609B4425562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B402BC-1954-429C-9276-B609B4425562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23EA7FDC-3F86-4419-A3EB-E1F690D604D5} = {6D887B82-94A8-4247-9C31-A622489E7794}
+		{694F6C80-6A14-4867-8173-BCDD314647DE} = {6D887B82-94A8-4247-9C31-A622489E7794}
+		{F8B402BC-1954-429C-9276-B609B4425562} = {694F6C80-6A14-4867-8173-BCDD314647DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17D4D1C2-3D92-4A20-AD61-733F11FE1774}
