@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsyncAwaitDemo</StartupObject>
+    <StartupObject>SignBaseSignRepository</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -207,6 +207,8 @@
     <Compile Include="56_Async\AsyncMain.cs" />
     <Compile Include="56_Async\SyncDemo.cs" />
     <Compile Include="56_Async\WeatherForecastApp.cs" />
+    <Compile Include="57_InMemory\RepositoryPatternDemo.cs" />
+    <Compile Include="57_InMemory\SignBaseSingRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
