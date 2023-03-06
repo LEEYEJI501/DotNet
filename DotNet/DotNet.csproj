@@ -33,9 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNet.TextToCollection</StartupObject>
+    <StartupObject>patternMacthingWithSwitch</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -215,6 +218,15 @@
     <Compile Include="58_IO\StreamReaderReadToEndDemo.cs" />
     <Compile Include="58_IO\StreamWriterWriteLineDemo.cs" />
     <Compile Include="58_IO\TextToCollection.cs" />
+    <Compile Include="59_XmlAndJSON\JsonConvertDemo.cs" />
+    <Compile Include="59_XmlAndJSON\XElementDemo.cs" />
+    <Compile Include="60_Network\HttpClientDemo.cs" />
+    <Compile Include="60_Network\WebClientDemo.cs" />
+    <Compile Include="61_Functional\AggregateDemo.cs" />
+    <Compile Include="61_Functional\HigherOrderFunction.cs" />
+    <Compile Include="61_Functional\LicenseResult.cs" />
+    <Compile Include="62_Modern\PatternMachingWithSwitch.cs" />
+    <Compile Include="62_Modern\PatternMatchingIf.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
@@ -222,6 +234,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
