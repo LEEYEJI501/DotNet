@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>patternMacthingWithSwitch</StartupObject>
+    <StartupObject>DebugDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -227,6 +227,12 @@
     <Compile Include="61_Functional\LicenseResult.cs" />
     <Compile Include="62_Modern\PatternMachingWithSwitch.cs" />
     <Compile Include="62_Modern\PatternMatchingIf.cs" />
+    <Compile Include="63_Debuger\DebugDemo.cs" />
+    <Compile Include="64_Tips\DefineDemo.cs" />
+    <Compile Include="64_Tips\IntelliSenseDemo.cs" />
+    <Compile Include="64_Tips\PlaceHolderEtc.cs" />
+    <Compile Include="64_Tips\SendMailTest.cs" />
+    <Compile Include="64_Tips\StringConverterDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExample\StreamExample.cs" />
